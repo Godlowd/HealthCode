@@ -7,7 +7,9 @@
 //
 
 #import "SceneDelegate.h"
-
+#import "ViewController.h"
+#import "QRCodeViewController.h"
+#import "GuardViewController.h"
 @interface SceneDelegate ()
 
 @end
@@ -16,6 +18,14 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
+    UIWindowScene *mainscene = (UIWindowScene *)scene;
+    _window = [[UIWindow alloc] initWithFrame:mainscene.coordinateSpace.bounds];
+    _window.windowScene = mainscene;
+    QRCodeViewController *controller = QRCodeViewController.new;
+    GuardViewController *guardController = GuardViewController.new;
+    ViewController *viewcontroller = ViewController.new;
+    _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewcontroller];
+    [_window makeKeyAndVisible];
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).

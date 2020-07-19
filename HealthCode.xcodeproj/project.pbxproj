@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309255B87F3419B7F0099A03 /* libPods-HealthCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C169D9BF3A1D43B7B4D0AF48 /* libPods-HealthCode.a */; };
 		D50A715524BD91C200805136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A715424BD91C200805136 /* AppDelegate.m */; };
 		D50A715824BD91C200805136 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A715724BD91C200805136 /* SceneDelegate.m */; };
 		D50A715B24BD91C200805136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A715A24BD91C200805136 /* ViewController.m */; };
@@ -14,9 +15,18 @@
 		D50A716024BD91C600805136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50A715F24BD91C600805136 /* Assets.xcassets */; };
 		D50A716324BD91C600805136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50A716124BD91C600805136 /* LaunchScreen.storyboard */; };
 		D50A716624BD91C600805136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A716524BD91C600805136 /* main.m */; };
+		D50A716E24BE077E00805136 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A716D24BE077E00805136 /* QRCodeViewController.m */; };
+		D50A717124BEA7E800805136 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A717024BEA7E800805136 /* UserInfo.m */; };
+		D50A717624BFEED800805136 /* GuardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A717524BFEED800805136 /* GuardViewController.m */; };
+		D5AAF74324C0363600B6AF2E /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AAF74224C0363600B6AF2E /* ResultViewController.m */; };
+		D5AAF74624C0AD3600B6AF2E /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AAF74424C0AD3500B6AF2E /* RSA.m */; };
+		D5AAF74924C1D77200B6AF2E /* SuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AAF74824C1D77200B6AF2E /* SuccessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AABF6239CED66631A25CF93 /* Pods-HealthCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCode.release.xcconfig"; path = "Target Support Files/Pods-HealthCode/Pods-HealthCode.release.xcconfig"; sourceTree = "<group>"; };
+		C169D9BF3A1D43B7B4D0AF48 /* libPods-HealthCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38C67FA0B66398AF132A0FA /* Pods-HealthCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCode.debug.xcconfig"; path = "Target Support Files/Pods-HealthCode/Pods-HealthCode.debug.xcconfig"; sourceTree = "<group>"; };
 		D50A715024BD91C200805136 /* HealthCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50A715324BD91C200805136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D50A715424BD91C200805136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +39,18 @@
 		D50A716224BD91C600805136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D50A716424BD91C600805136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50A716524BD91C600805136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D50A716C24BE077E00805136 /* QRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		D50A716D24BE077E00805136 /* QRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		D50A716F24BEA7E800805136 /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		D50A717024BEA7E800805136 /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		D50A717424BFEED800805136 /* GuardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuardViewController.h; sourceTree = "<group>"; };
+		D50A717524BFEED800805136 /* GuardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuardViewController.m; sourceTree = "<group>"; };
+		D5AAF74124C0363600B6AF2E /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		D5AAF74224C0363600B6AF2E /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		D5AAF74424C0AD3500B6AF2E /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		D5AAF74524C0AD3500B6AF2E /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		D5AAF74724C1D77200B6AF2E /* SuccessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuccessView.h; sourceTree = "<group>"; };
+		D5AAF74824C1D77200B6AF2E /* SuccessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuccessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309255B87F3419B7F0099A03 /* libPods-HealthCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC30D0FCE7A0DF916372567A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C169D9BF3A1D43B7B4D0AF48 /* libPods-HealthCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D50A714724BD91C200805136 = {
 			isa = PBXGroup;
 			children = (
 				D50A715224BD91C200805136 /* HealthCode */,
 				D50A715124BD91C200805136 /* Products */,
+				DEF7F5E4B6D1333CB911BF3F /* Pods */,
+				CC30D0FCE7A0DF916372567A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +94,10 @@
 		D50A715224BD91C200805136 /* HealthCode */ = {
 			isa = PBXGroup;
 			children = (
+				D5AAF74524C0AD3500B6AF2E /* RSA.h */,
+				D5AAF74424C0AD3500B6AF2E /* RSA.m */,
+				D50A717324BF55DA00805136 /* Guard */,
+				D50A717224BF559C00805136 /* Custom */,
 				D50A715324BD91C200805136 /* AppDelegate.h */,
 				D50A715424BD91C200805136 /* AppDelegate.m */,
 				D50A715624BD91C200805136 /* SceneDelegate.h */,
@@ -76,6 +113,39 @@
 			path = HealthCode;
 			sourceTree = "<group>";
 		};
+		D50A717224BF559C00805136 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D50A716C24BE077E00805136 /* QRCodeViewController.h */,
+				D50A716D24BE077E00805136 /* QRCodeViewController.m */,
+				D50A716F24BEA7E800805136 /* UserInfo.h */,
+				D50A717024BEA7E800805136 /* UserInfo.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		D50A717324BF55DA00805136 /* Guard */ = {
+			isa = PBXGroup;
+			children = (
+				D50A717424BFEED800805136 /* GuardViewController.h */,
+				D50A717524BFEED800805136 /* GuardViewController.m */,
+				D5AAF74124C0363600B6AF2E /* ResultViewController.h */,
+				D5AAF74224C0363600B6AF2E /* ResultViewController.m */,
+				D5AAF74724C1D77200B6AF2E /* SuccessView.h */,
+				D5AAF74824C1D77200B6AF2E /* SuccessView.m */,
+			);
+			path = Guard;
+			sourceTree = "<group>";
+		};
+		DEF7F5E4B6D1333CB911BF3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D38C67FA0B66398AF132A0FA /* Pods-HealthCode.debug.xcconfig */,
+				1AABF6239CED66631A25CF93 /* Pods-HealthCode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50A716924BD91C600805136 /* Build configuration list for PBXNativeTarget "HealthCode" */;
 			buildPhases = (
+				E730AAE8D9005937C8007AE5 /* [CP] Check Pods Manifest.lock */,
 				D50A714C24BD91C200805136 /* Sources */,
 				D50A714D24BD91C200805136 /* Frameworks */,
 				D50A714E24BD91C200805136 /* Resources */,
@@ -141,15 +212,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E730AAE8D9005937C8007AE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D50A714C24BD91C200805136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50A717624BFEED800805136 /* GuardViewController.m in Sources */,
+				D50A716E24BE077E00805136 /* QRCodeViewController.m in Sources */,
+				D5AAF74924C1D77200B6AF2E /* SuccessView.m in Sources */,
 				D50A715B24BD91C200805136 /* ViewController.m in Sources */,
 				D50A715524BD91C200805136 /* AppDelegate.m in Sources */,
 				D50A716624BD91C600805136 /* main.m in Sources */,
+				D50A717124BEA7E800805136 /* UserInfo.m in Sources */,
+				D5AAF74624C0AD3600B6AF2E /* RSA.m in Sources */,
 				D50A715824BD91C200805136 /* SceneDelegate.m in Sources */,
+				D5AAF74324C0363600B6AF2E /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +389,7 @@
 		};
 		D50A716A24BD91C600805136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38C67FA0B66398AF132A0FA /* Pods-HealthCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +407,7 @@
 		};
 		D50A716B24BD91C600805136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AABF6239CED66631A25CF93 /* Pods-HealthCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+@property(nonatomic, strong) UIButton *custom;
+@property(nonatomic, strong) UIButton *guard;
 @end
 
